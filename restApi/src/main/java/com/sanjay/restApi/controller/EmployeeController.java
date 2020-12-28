@@ -25,7 +25,7 @@ public class EmployeeController {
 	@GetMapping("/employee")
 	public List<Employees> showAllList()
 	{
-		System.out.println("inside findAll method ");
+		
 		return employeeService.getAllEmployees();
 	}
 	@GetMapping("/employee/{id}")
